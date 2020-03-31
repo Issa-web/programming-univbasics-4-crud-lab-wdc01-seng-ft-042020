@@ -7,33 +7,33 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  my_array << "Amegan"
+ create_an_array << "Amegan"
 end
 
 def add_element_to_start_of_array(array, element)
-  new_names.unshift ("Jabar")
+  create_an_array.unshift ("Jabar")
 end
 
 def remove_element_from_end_of_array(array)
-  new_names.pop
+  create_an_array.pop
 end
 
 def remove_element_from_start_of_array(array)
-  new_names.shift
+  create_an_array.shift
 end
 
 def retrieve_element_from_index(array, index_number)
-  new_names[1]
+ create_an_array[1]
 end
 
 def retrieve_first_element_from_array(array)
-  new_names[0]
+  create_an_array[0]
 end
 
 def retrieve_last_element_from_array(array)
-  new_names[-1]
+  create_an_array[-1]
 end
 
 def update_element_from_index(array, index_number, element)
-new_names[1] = "Roland"
+create_an_array[1] = "Roland"
 end
